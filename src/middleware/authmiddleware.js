@@ -1,4 +1,4 @@
-import jwt from "jsonWebToken" ;
+import jwt from "jsonwebtoken" ;
 const authMiddleware = (req, res, next) => {
   try {
     // variable to store token comming from frontend req
