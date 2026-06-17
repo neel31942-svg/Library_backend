@@ -1,7 +1,6 @@
 # Dependencies
 node_modules/
 src/uploads/
-.env/
 src/uploads/*
 jspm_packages/
 web_modules/

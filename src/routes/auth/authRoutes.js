@@ -13,6 +13,6 @@ authRouter.post("/sign-in",signInApi)
 authRouter.post("/add-student", addStudent);
 authRouter.get("/get-all-students", getallStudents);
 authRouter.get("/get-all-books",getAllBooks);
-authRouter.delete("/")
+
 
 export default authRouter;
