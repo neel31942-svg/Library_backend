@@ -1,6 +1,6 @@
-import { User } from "../../models/auth/user-model.js";
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
+import { User } from "../../models/auth/user-model.js"; 
 
 const signInApi = async (req, res) => {
     try {

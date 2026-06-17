@@ -4,6 +4,6 @@ import authMiddleware from "../../middleware/authMiddleware.js";
 
 const bookRoutes = Router();
 
-bookRoutes.get("/books/get-all-books",authMiddleware, getAllBooks);
+bookRoutes.get("/get-all-books",authMiddleware, getAllBooks);
 
 export default bookRoutes;
