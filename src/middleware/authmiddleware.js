@@ -1,5 +1,5 @@
 import jwt from "jsonwebtoken" ;
-const authMiddleware = (req, res, next) => {
+const  authMiddleware = (req, res, next) => {
   try {
     // variable to store token comming from frontend req
     // req.header.authorisation ="Bearer werty@#%^&*dfghjkvcvbhgfdf"
